@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ekeeda</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script
+    src="https://kit.fontawesome.com/90b4225236.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <nav id="navBar">
+      <!-- <img src="" alt="ekeeda-logo" height="30 px" width="50 px" />
+     -->
+      <span>Ekeeda</span>
+      <ul>
+        <li class="trial">
+          <a href="#"><button>get free trial</button></a>
+        </li>
+        <li class="search">
+          <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>No Result found</h1>
+      <p>We cant find any item matching your search</p>
+      <img src="search.svg" alt="" />
+    </main>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+      window.onscroll = function () {
+        if (window.scrollY > 22) {
+          navBar.classList.add("scrolled");
+        } else {
+          navBar.classList.remove("scrolled");
+        }
+      };
+    </script>
+  </body>
+</html>
