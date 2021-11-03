@@ -76,23 +76,26 @@ ul li.search button:hover {
   right: 0;
 }
 .message .text {
-  width: 180px;
+  width: 280px;
   height: 60px;
   margin: auto;
   padding: 0;
 }
 .message h1 {
-  font-size: larger;
+  font-size: x-large;
   color: #11223e;
 }
 .message p {
-  font-size: x-small;
+  margin: auto;
+  text-align: center;
+  width: 200px;
+  font-size: small;
   color: #888888;
 }
 
 img {
   margin-top: 10px;
-  height: 220px;
+  height: 320px;
   /* border: 1px solid black; */
 }
 
@@ -116,7 +119,7 @@ ul li.trial button {
 @media screen and (max-width: 480px) {
   ul li.trial button {
     padding: 2.5px 5px;
-    font-size: 8px;
+    font-size: 10px;
     border-radius: 4px;
     margin-right: -22px;
   }
@@ -136,6 +139,8 @@ ul li.trial button {
     margin-bottom: 2px;
   }
   .message p {
+    margin: auto;
+    width: 130px;
     font-size: xx-small;
     color: #b1b0b0;
   }
@@ -146,6 +151,6 @@ ul li.trial button {
     height: 40px;
   }
   img {
-    height: 190px;
+    height: 200px;
   }
 }
