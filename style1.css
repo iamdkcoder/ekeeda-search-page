@@ -126,7 +126,7 @@ ul li.trial button {
 
   .message {
     height: 0;
-    top: -45%;
+    top: -70%;
   }
   .message .text {
     width: 140px;
@@ -135,14 +135,15 @@ ul li.trial button {
     padding: 0;
   }
   .message h1 {
-    font-size: large;
+    font-size: 18px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .message p {
+    width: 160px;
     margin: auto;
-    width: 130px;
-    font-size: xx-small;
+    margin-left: -10px;
+    font-size: x-small;
     color: #b1b0b0;
   }
   span {
@@ -152,6 +153,7 @@ ul li.trial button {
     height: 40px;
   }
   img {
-    height: 210px;
+    height: 200px;
+    width: 300px;
   }
 }
