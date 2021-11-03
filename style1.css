@@ -136,6 +136,7 @@ ul li.trial button {
   }
   .message h1 {
     font-size: large;
+    font-weight: 600;
     margin-bottom: 5px;
   }
   .message p {
@@ -151,6 +152,6 @@ ul li.trial button {
     height: 40px;
   }
   img {
-    height: 200px;
+    height: 210px;
   }
 }
