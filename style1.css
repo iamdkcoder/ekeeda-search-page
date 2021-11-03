@@ -116,14 +116,14 @@ ul li.trial button {
 @media screen and (max-width: 480px) {
   ul li.trial button {
     padding: 2.5px 5px;
-    font-size: 6px;
+    font-size: 8px;
     border-radius: 4px;
     margin-right: -22px;
   }
 
   .message {
     height: 0;
-    top: -65%;
+    top: -45%;
   }
   .message .text {
     width: 140px;
@@ -146,6 +146,6 @@ ul li.trial button {
     height: 40px;
   }
   img {
-    height: 170px;
+    height: 190px;
   }
 }
