@@ -135,8 +135,8 @@ ul li.trial button {
     padding: 0;
   }
   .message h1 {
-    font-size: medium;
-    margin-bottom: 2px;
+    font-size: large;
+    margin-bottom: 5px;
   }
   .message p {
     margin: auto;
